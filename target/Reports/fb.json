@@ -1,0 +1,408 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3353266000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Browser and Launch Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Browser_and_Launch_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-11T10:59:02.736Z",
+        "line": 7,
+        "name": "To validate Valid username and InValid Password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 229670500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user have enter the Valid username and Invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_enter_the_Valid_username_and_Invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5066809800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996263200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user reach the Invalid Warning page",
+            "match": {
+              "location": "StepDefinition.user_reach_the_Invalid_Warning_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2401448900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Browser and Launch Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Browser_and_Launch_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-11T10:59:12.419Z",
+        "line": 13,
+        "name": "To Validate Valid username and Valid Password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 867455100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user have enter the Valid username and Valid password",
+            "match": {
+              "location": "StepDefinition.user_have_enter_the_Valid_username_and_Valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5084428100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2872758000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user reach the Invalid Warning page",
+            "match": {
+              "location": "StepDefinition.user_reach_the_Invalid_Warning_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2578190000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Browser and Launch Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Browser_and_Launch_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-11T10:59:23.647Z",
+        "line": 26,
+        "name": "To Validate the username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126585600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user have enter the \"vimal\" and  \"987655\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vimal\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"987655\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.user_have_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5060943200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5293292400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user reach the Invalid Warning page",
+            "match": {
+              "location": "StepDefinition.user_reach_the_Invalid_Warning_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1632840000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Browser and Launch Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Browser_and_Launch_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-11T10:59:36.708Z",
+        "line": 27,
+        "name": "To Validate the username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 792803800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user have enter the \"subhashini23@ymail.com\" and  \"Subha@23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"subhashini23@ymail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Subha@23\"",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDefinition.user_have_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5064025300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1151562900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user reach the Invalid Warning page",
+            "match": {
+              "location": "StepDefinition.user_reach_the_Invalid_Warning_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2261789400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch the Browser and Launch Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Browser_and_Launch_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-11T10:59:45.350Z",
+        "line": 28,
+        "name": "To Validate the username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 169004400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user have enter the \"subhashini23@ymail.com\" and  \"Subha@2309\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"subhashini23@ymail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Subha@2309\"",
+                  "offset": 50
+                }
+              ],
+              "location": "StepDefinition.user_have_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5080866300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1964518200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user reach the Invalid Warning page",
+            "match": {
+              "location": "StepDefinition.user_reach_the_Invalid_Warning_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login Functionality Of FaceBook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:/D:/GitHub/CucumberFacebook/GitProject/src/test/resources/Facebook/Facebook.feature",
+    "tags": []
+  }
+]
