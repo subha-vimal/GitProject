@@ -42,7 +42,6 @@ public class StepDefinition extends BaseClass {
 	@When("user click the Login button")
 	public void user_click_the_Login_button() throws InterruptedException {
 		click(login.getLoginBtn());
-		// elementClickableWait(login.getLoginBtn());
 		Thread.sleep(5000);
 	}
 

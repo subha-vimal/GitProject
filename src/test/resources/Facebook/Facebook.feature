@@ -3,16 +3,19 @@ Feature: To Validate the Login Functionality Of FaceBook Application
   Background: 
     Given user Launch the Browser and Launch Url
 
+  @sanity
   Scenario: To validate Valid username and InValid Password
     When user have enter the Valid username and Invalid password
     And user click the Login button
     Then user reach the Invalid Warning page
 
+  @smoke
   Scenario: To Validate Valid username and Valid Password
     When user have enter the Valid username and Valid password
     And user click the Login button
     Then user reach the Invalid Warning page
 
+  @smoke
   Scenario Outline: To Validate the username and password
     When user have enter the "<username>" and  "<password>"
     And user click the Login button
