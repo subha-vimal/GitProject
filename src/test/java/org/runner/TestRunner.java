@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="D:\\GitHub\\CucumberFacebook\\GitProject\\src\\test\\resources\\Facebook\\Facebook.feature",glue="org.stepDefinition",
-dryRun = false,plugin= {"html:D:\\GitHub\\CucumberFacebook\\GitProject\\target\\Reports\\fb"},tags="@sanity,@smoke")
+dryRun = false,plugin= {"html:D:\\GitHub\\CucumberFacebook\\GitProject\\target\\Reports\\fb","junit:D:\\GitHub\\CucumberFacebook\\GitProject\\target\\Reports\\fb.xml"}
+,tags="@sanity,@smoke")
 public class TestRunner {
 
 }
