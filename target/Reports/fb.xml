@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="55.834251">
+    <testcase classname="To Validate the Login Functionality Of FaceBook Application" name="To validate Valid username and InValid Password" time="10.943905">
+        <system-out>
+            <![CDATA[Given user Launch the Browser and Launch Url................................passed
+When user have enter the Valid username and Invalid password................passed
+And user click the Login button.............................................passed
+Then user reach the Invalid Warning page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionality Of FaceBook Application" name="To Validate Valid username and Valid Password" time="11.624315">
+        <system-out>
+            <![CDATA[Given user Launch the Browser and Launch Url................................passed
+When user have enter the Valid username and Valid password..................passed
+And user click the Login button.............................................passed
+Then user reach the Invalid Warning page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionality Of FaceBook Application" name="To Validate the username and password" time="15.146878">
+        <system-out>
+            <![CDATA[Given user Launch the Browser and Launch Url................................passed
+When user have enter the "vimal" and  "987655"..............................passed
+And user click the Login button.............................................passed
+Then user reach the Invalid Warning page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionality Of FaceBook Application" name="To Validate the username and password 2" time="8.818715">
+        <system-out>
+            <![CDATA[Given user Launch the Browser and Launch Url................................passed
+When user have enter the "subhashini23@ymail.com" and  "Subha@23"...........passed
+And user click the Login button.............................................passed
+Then user reach the Invalid Warning page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionality Of FaceBook Application" name="To Validate the username and password 3" time="9.300438">
+        <system-out>
+            <![CDATA[Given user Launch the Browser and Launch Url................................passed
+When user have enter the "subhashini23@ymail.com" and  "Subha@2309".........passed
+And user click the Login button.............................................passed
+Then user reach the Invalid Warning page....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
