@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3353266000,
+              "duration": 8810385400,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-11T10:59:02.736Z",
+        "start_timestamp": "2024-03-19T13:00:04.128Z",
         "line": 7,
         "name": "To validate Valid username and InValid Password",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 229670500,
+              "duration": 244121500,
               "status": "passed"
             },
             "line": 8,
@@ -46,8 +46,9 @@
           },
           {
             "result": {
-              "duration": 5066809800,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027Log in\u0027]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [38f199b5f608accf52ecda68096f01b5, findElement {value\u003d//button[text()\u003d\u0027Log in\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51102/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 38f199b5f608accf52ecda68096f01b5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat org.helper.BaseClass.click(BaseClass.java:87)\r\n\tat org.stepDefinition.StepDefinition.user_click_the_Login_button(StepDefinition.java:44)\r\n\tat ✽.user click the Login button(file:/D:/GitHub/CucumberFacebook/GitProject/src/test/resources/Facebook/Facebook.feature:9)\r\n",
+              "duration": 52546500,
+              "status": "failed"
             },
             "line": 9,
             "name": "user click the Login button",
@@ -58,8 +59,8 @@
           },
           {
             "result": {
-              "duration": 996263200,
-              "status": "passed"
+              "duration": 1006800,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user reach the Invalid Warning page",
@@ -84,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2401448900,
+              "duration": 8033684700,
               "status": "passed"
             },
             "line": 4,
@@ -97,7 +98,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-11T10:59:12.419Z",
+        "start_timestamp": "2024-03-19T13:00:13.296Z",
         "line": 13,
         "name": "To Validate Valid username and Valid Password",
         "description": "",
@@ -107,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 867455100,
+              "duration": 1520766100,
               "status": "passed"
             },
             "line": 14,
@@ -119,8 +120,9 @@
           },
           {
             "result": {
-              "duration": 5084428100,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027Log in\u0027]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3068e33ed4b5cee608e7c4a3e9aeba4c, findElement {value\u003d//button[text()\u003d\u0027Log in\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51160/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3068e33ed4b5cee608e7c4a3e9aeba4c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat org.helper.BaseClass.click(BaseClass.java:87)\r\n\tat org.stepDefinition.StepDefinition.user_click_the_Login_button(StepDefinition.java:44)\r\n\tat ✽.user click the Login button(file:/D:/GitHub/CucumberFacebook/GitProject/src/test/resources/Facebook/Facebook.feature:15)\r\n",
+              "duration": 18257400,
+              "status": "failed"
             },
             "line": 15,
             "name": "user click the Login button",
@@ -131,8 +133,8 @@
           },
           {
             "result": {
-              "duration": 2872758000,
-              "status": "passed"
+              "duration": 402000,
+              "status": "skipped"
             },
             "line": 16,
             "name": "user reach the Invalid Warning page",
@@ -157,7 +159,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2578190000,
+              "duration": 13260856300,
               "status": "passed"
             },
             "line": 4,
@@ -170,7 +172,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-11T10:59:23.647Z",
+        "start_timestamp": "2024-03-19T13:00:22.901Z",
         "line": 26,
         "name": "To Validate the username and password",
         "description": "",
@@ -180,7 +182,7 @@
         "steps": [
           {
             "result": {
-              "duration": 126585600,
+              "duration": 364211400,
               "status": "passed"
             },
             "line": 20,
@@ -202,8 +204,9 @@
           },
           {
             "result": {
-              "duration": 5060943200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027Log in\u0027]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a91f302864030fde2fbcc94bd3c11bae, findElement {value\u003d//button[text()\u003d\u0027Log in\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51224/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a91f302864030fde2fbcc94bd3c11bae\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat org.helper.BaseClass.click(BaseClass.java:87)\r\n\tat org.stepDefinition.StepDefinition.user_click_the_Login_button(StepDefinition.java:44)\r\n\tat ✽.user click the Login button(file:/D:/GitHub/CucumberFacebook/GitProject/src/test/resources/Facebook/Facebook.feature:21)\r\n",
+              "duration": 33179500,
+              "status": "failed"
             },
             "line": 21,
             "name": "user click the Login button",
@@ -214,8 +217,8 @@
           },
           {
             "result": {
-              "duration": 5293292400,
-              "status": "passed"
+              "duration": 935600,
+              "status": "skipped"
             },
             "line": 22,
             "name": "user reach the Invalid Warning page",
@@ -240,7 +243,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1632840000,
+              "duration": 8063325500,
               "status": "passed"
             },
             "line": 4,
@@ -253,7 +256,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-11T10:59:36.708Z",
+        "start_timestamp": "2024-03-19T13:00:36.588Z",
         "line": 27,
         "name": "To Validate the username and password",
         "description": "",
@@ -263,7 +266,7 @@
         "steps": [
           {
             "result": {
-              "duration": 792803800,
+              "duration": 435689800,
               "status": "passed"
             },
             "line": 20,
@@ -285,8 +288,9 @@
           },
           {
             "result": {
-              "duration": 5064025300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027Log in\u0027]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [61c492dede69f49ca97beeb34d6f6115, findElement {value\u003d//button[text()\u003d\u0027Log in\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51302/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 61c492dede69f49ca97beeb34d6f6115\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat org.helper.BaseClass.click(BaseClass.java:87)\r\n\tat org.stepDefinition.StepDefinition.user_click_the_Login_button(StepDefinition.java:44)\r\n\tat ✽.user click the Login button(file:/D:/GitHub/CucumberFacebook/GitProject/src/test/resources/Facebook/Facebook.feature:21)\r\n",
+              "duration": 33567000,
+              "status": "failed"
             },
             "line": 21,
             "name": "user click the Login button",
@@ -297,8 +301,8 @@
           },
           {
             "result": {
-              "duration": 1151562900,
-              "status": "passed"
+              "duration": 938900,
+              "status": "skipped"
             },
             "line": 22,
             "name": "user reach the Invalid Warning page",
@@ -323,7 +327,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2261789400,
+              "duration": 10336069500,
               "status": "passed"
             },
             "line": 4,
@@ -336,7 +340,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-11T10:59:45.350Z",
+        "start_timestamp": "2024-03-19T13:00:45.134Z",
         "line": 28,
         "name": "To Validate the username and password",
         "description": "",
@@ -346,7 +350,7 @@
         "steps": [
           {
             "result": {
-              "duration": 169004400,
+              "duration": 269940300,
               "status": "passed"
             },
             "line": 20,
@@ -368,8 +372,9 @@
           },
           {
             "result": {
-              "duration": 5080866300,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()\u003d\u0027Log in\u0027]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.18.1\u0027, revision: \u0027b1d3319b48\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3b033575578cf2f7ffd10d4d421d727a, findElement {value\u003d//button[text()\u003d\u0027Log in\u0027], using\u003dxpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51375/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3b033575578cf2f7ffd10d4d421d727a\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat org.helper.BaseClass.click(BaseClass.java:87)\r\n\tat org.stepDefinition.StepDefinition.user_click_the_Login_button(StepDefinition.java:44)\r\n\tat ✽.user click the Login button(file:/D:/GitHub/CucumberFacebook/GitProject/src/test/resources/Facebook/Facebook.feature:21)\r\n",
+              "duration": 24265500,
+              "status": "failed"
             },
             "line": 21,
             "name": "user click the Login button",
@@ -380,8 +385,8 @@
           },
           {
             "result": {
-              "duration": 1964518200,
-              "status": "passed"
+              "duration": 452200,
+              "status": "skipped"
             },
             "line": 22,
             "name": "user reach the Invalid Warning page",
