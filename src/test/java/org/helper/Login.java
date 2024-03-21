@@ -15,7 +15,7 @@ public class Login extends BaseClass {
 	@FindBy(id = "pass")
 	private WebElement passwordTxt;
 
-	@FindBy(xpath = "//button[text()='Log In']")
+	@FindBy(xpath = "//button[text()='Log in']")
 	private WebElement loginBtn;
 
 	public WebElement getEmailTxt() {

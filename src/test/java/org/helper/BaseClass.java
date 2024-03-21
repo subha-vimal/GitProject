@@ -299,7 +299,7 @@ public class BaseClass {
 
 	// excelsheet
 	public static String getExcelData(int rowIndex, int cellIndex) throws IOException {
-		File f = new File("D:\\GitHub\\CucumberFacebook\\GitProject\\Excel\\FaceBook.xlsx");
+		File f = new File("D:\\GitHub\\GitProject\\Excel\\FaceBook.xlsx");
 		FileInputStream fileInputStream = new FileInputStream(f);
 
 		Workbook book = new XSSFWorkbook(fileInputStream);
